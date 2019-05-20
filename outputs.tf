@@ -3,9 +3,9 @@ output "bucket_endpoint" {
 }
 
 output "bucket_domain_name" {
-    value = "${module.dev_bucket.domain_name}"
+    value = "${module.dev_bucket.bucket_domain_name}"
 }
 
 output "bucket_arn" {
-    value = "${module.dev_bucket.arn}"
+    value = "${module.dev_bucket.bucket_arn}"
 }

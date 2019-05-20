@@ -1,6 +1,6 @@
 module "dev_bucket" {
   source  = "app.terraform.io/jacobm3/s3_simple/aws"
-  version = "2.1"
+  version = "2.2"
   bucket_name = "${var.bucket_name}"
   
 }

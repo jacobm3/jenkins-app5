@@ -1,4 +1,4 @@
 module "dev_bucket" {
   source  = "app.terraform.io/jacobm3/s3_simple/aws"
-  bucket_name = "marlene-dev-bucket-${var.random}"
+  bucket_name = "${var.bucket_name}"
 }

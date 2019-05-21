@@ -1,3 +1,5 @@
+#!/bin/bash -x 
+
 terraform init -no-color
 
 terraform apply -auto-approve -no-color \

@@ -9,9 +9,3 @@ module "dev_bucket" {
   
 }
 
-resource "aws_instance" "vm" {
-  ami          = "ami-2757f631"
-  instance_type = "t2.micro"
-  count        = 10
-
-}

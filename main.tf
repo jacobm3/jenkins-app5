@@ -9,12 +9,7 @@ module "dev_bucket" {
   
 }
 
-resource "aws_instance" "vm" {
-  ami          = "ami-2757f631"
-  instance_type = "t2.micro"
-  count        = 1
-}
-  
+
 resource "aws_s3_bucket" "website_bucket" {
   force_destroy = true
   bucket = "jmartinson-23497230948230480923843243"

@@ -9,3 +9,7 @@ output "bucket_domain_name" {
 output "bucket_arn" {
     value = "${module.dev_bucket.bucket_arn}"
 }
+
+output "bucket_arn" {
+    value = "${module.dev_bucket.website_endpoint}"
+}

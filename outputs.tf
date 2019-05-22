@@ -10,6 +10,6 @@ output "bucket_arn" {
     value = "${module.dev_bucket.bucket_arn}"
 }
 
-output "bucket_arn" {
+output "website_endpoint" {
     value = "${module.dev_bucket.website_endpoint}"
 }
